@@ -1,0 +1,11 @@
+{
+	"weixin":{
+		"AppID": "wx230d36be9daf735b",
+		"AppSecret": "da02b144f0f5fe4ef20d987356393425",
+		"Server":{
+			"URL": "http://beta.tuinadaojia.com/api/weixin/hubble",
+			"Token": "tndj",
+			"EncodingAESKey": "KrwIgYk5Jl0DFQ1y7zQypFVqaEl5VgzfDKY9n6VX87p"
+		}
+	}
+}

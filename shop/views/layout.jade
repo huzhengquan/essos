@@ -1,0 +1,44 @@
+doctype html
+html(lang="zh-CN")
+  head
+    title #{title}
+    meta(charset="utf-8")
+    meta(name="viewport"
+         content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui")
+    meta(name="apple-mobile-web-app-capable"
+         content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style"
+         content="black")
+    link(rel="stylesheet"
+         href="//cdn.bootcss.com/framework7/1.3.1/css/framework7.ios.min.css")
+    link(rel="stylesheet"
+         href="//cdn.bootcss.com/framework7/1.3.1/css/framework7.ios.colors.min.css")
+    link(rel="stylesheet"
+         href="//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css")
+    link(rel="stylesheet"
+         href="/shop/style/main.css")
+  body
+    div.statusbar-overlay
+    div.panel-overlay
+    div.panel.panel-left.panel-reveal
+      div.content-block
+        p left panel content goes here
+    div.views
+      div.view.view-main(data-url="product/list.html")
+        div.navbar
+        div.pages.navbar-through.toolbar-through
+          div.page.no-navbar
+            div.page-content aaa
+        div.toolbar
+          div.toolbar-inner
+            a.link.no-animation(href="product/list.html")
+              i.icon.ion-home
+            a.link.no-animation(href="user/my.html")
+              i.icon.ion-person
+            a.link.no-animation(href="system/about.html")
+              i.icon.ion-information-circled
+    script(type="text/javascript"
+           src="//cdn.bootcss.com/framework7/1.3.1/js/framework7.min.js")
+    script(type="text/javascript"
+           src="/shop/js/main.js")
+
