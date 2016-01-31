@@ -1,6 +1,7 @@
 .swp
 test
 desktop.ini
+*.config.json
 
 
 # Logs
